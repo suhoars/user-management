@@ -66,7 +66,6 @@ class Login extends Component {
     });
     await login(form)
       .then((res) => {
-        console.log('hehe',res.data.user.id)
         this.setState({
           loading: false,
         });

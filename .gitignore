@@ -9,7 +9,6 @@ package-lock.json
 
 # production
 /build
-.env
 # misc
 .eslintcache
 .DS_Store
